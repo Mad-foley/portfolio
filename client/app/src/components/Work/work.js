@@ -22,7 +22,7 @@ export default function Work() {
                                     <h6><span>Web Development</span></h6>
                                     <h4>My Cave</h4>
                                     <p>
-                                        Wine social media page that allows individual to login, view, add and like different wines.
+                                        Wine social media page that allows individuals to login, view, add and like different wines.
                                         Made in an agile team environment.
                                     </p>
                                     <p>
@@ -45,8 +45,8 @@ export default function Work() {
                                     <h6><span>Web Development</span></h6>
                                     <h4>CarCar</h4>
                                     <p>
-                                    Application created to help car buisness to manage car inventory, employees and appointments.
-                                    Worked as a pair in an agile environment to create seperate parts of the application.
+                                    Application created to help car businesses to manage car inventory, employees and appointments.
+                                    Worked as a pair in an agile environment to create separate parts of the application.
                                     </p>
                                     <p>
                                         Tools: Django, React, Docker, Microservices, Bootstrap
@@ -68,7 +68,7 @@ export default function Work() {
                                     <h6><span>Web Development</span></h6>
                                     <h4>FlashCard Reviewer</h4>
                                     <p>
-                                    Basic Flashcard Management application to keep track of subjects, categories and card sets.
+                                    Basic flashcard management application to keep track of subjects, categories and card sets.
                                     Offers basic user authentication through Django. My first self-made application to practice fundamental web development skills.
                                     </p>
                                     <p>
@@ -92,7 +92,7 @@ export default function Work() {
                                     <h4>Birding Logs</h4>
                                     <p>
                                     Designed for birders to look at, log and learn a little bit about the birds they see.
-                                    Basic functionality is to search birds, add comments/sightings and adding birds to a wishlist.
+                                    Basic functionality is to search birds, add comments/sightings and add birds to a wishlist.
                                     Data of over 900 birds compiled and organized by me. Data sourced from various wikipedia apis.
                                     </p>
                                     <p>
