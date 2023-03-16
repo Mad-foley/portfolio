@@ -25,7 +25,7 @@ export default function About() {
                                     My interest in programming originally came from linguistics but developed due to my passion for problem solving and life-long learning.
                                 </p>
                                 <p>
-                                    Outside of programming you can probably find me outdoors hiking and doing some casual birding (which I am also building an app for!).
+                                    Outside of programming you can probably find me outdoors hiking and doing some casual birding (for which I am also building an app for!).
                                 </p>
                                 <div className="btn-bar pt-4">
                                     <a href="https://gitlab.com/mad-foley" className="px-btn px-btn-theme me-4">GitLab <i className="fab fa-gitlab"></i></a>

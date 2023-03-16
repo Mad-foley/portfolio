@@ -16,7 +16,7 @@ export default function Banner() {
                                 <h1>I'm a  <ReactTypingEffect text={["Back-End", "Front-End", "Full-Stack"]}
                                     speed="100" typingDelay="100" eraseDelay="100" /> </h1>
                                     <h1>Developer</h1>
-                                <p>In the Greate Philadelphia area.</p>
+                                <p>In the Greater Philadelphia area.</p>
                                 <div className="btn-bar">
                                     <Link className="px-btn px-btn-theme" to="aboutme" smooth={true}>Let's Start</Link>
                                 </div>
