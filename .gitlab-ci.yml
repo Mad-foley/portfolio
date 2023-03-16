@@ -7,6 +7,8 @@ stages:
 build-client:
   stage: build
   image: node:lts-bullseye
+  variables:
+    PUBLIC_URL: https://mad-foley.gitlab.io/portfolio
   script:
     - cd client/app
     - npm install
