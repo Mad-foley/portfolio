@@ -14,11 +14,15 @@ before_script:
 
 build-client:
   stage: build
+  variables:
+    PUBLIC_URL: https://mad-foley.gitlab.io/portfolio
   script:
     - npm run build
+    - cp build/index.html build/404.html
   artifacts:
     paths:
       - client/app/build
+
 pages:
   stage: deploy
   rules:
