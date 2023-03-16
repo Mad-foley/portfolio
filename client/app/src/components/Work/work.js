@@ -17,9 +17,6 @@ export default function Work() {
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img">
                                     <img src="img/mycave.png" title="p1" alt="p1"/>
-                                    <Link to="#" className="gallery-link gallery-link-icon">
-                                        <i className="fas fa-arrow-right"></i>
-                                    </Link>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">
@@ -31,7 +28,7 @@ export default function Work() {
                                         Made in an agile team environment.
                                     </p>
                                     <p>
-                                        Tool: fastapi, react, redux, postgresql, docker, websocket, tailwind (light and dark mode)
+                                        Tool: FastAPI, React, Redux, postgreSQL, Docker, WebSocket, Tailwind-css (light and dark mode)
                                     </p>
                                     <div className="btn-bar">
                                         <a href="https://gitlab.com/team-07-the-fermenters/module3-project-gamma" className="px-btn px-btn-theme" data-scroll-nav="4">View Project</a>
@@ -43,9 +40,6 @@ export default function Work() {
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img">
                                     <img src="img/carcar.png" title="p2" alt="p2"/>
-                                    <Link to="#" className="gallery-link gallery-link-icon">
-                                        <i className="fas fa-arrow-right"></i>
-                                    </Link>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">
@@ -57,7 +51,7 @@ export default function Work() {
                                     Worked as a pair in an agile environment to create seperate parts of the application.
                                     </p>
                                     <p>
-                                        Tools: django, react, docker, microservices, bootstrap
+                                        Tools: Django, React, Docker, Microservices, Bootstrap
                                     </p>
                                     <div className="btn-bar">
                                         <a href="https://gitlab.com/mad-foley/car-car" className="px-btn px-btn-theme" data-scroll-nav="4" >View Project </a>
@@ -69,9 +63,6 @@ export default function Work() {
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img">
                                     <img src="img/flashcard-app.png" title="p3" alt="p3"/>
-                                    <Link to="#" className="gallery-link gallery-link-icon">
-                                        <i className="fas fa-arrow-right"></i>
-                                    </Link>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">
@@ -83,7 +74,7 @@ export default function Work() {
                                     Offers basic user authentication through Django. My first self-made application to practice fundamental web development skills.
                                     </p>
                                     <p>
-                                        Tools: django, HTML5, CSS3
+                                        Tools: Django, HTML, CSS
                                     </p>
                                     <div className="btn-bar">
                                         <a href="https://gitlab.com/mad-foley/flashcards" className="px-btn px-btn-theme" data-scroll-nav="4" >View Project </a>
@@ -95,9 +86,6 @@ export default function Work() {
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img">
                                     <img src="img/placeholder.png" title="p4" alt="p4"/>
-                                    <Link to="#" className="gallery-link gallery-link-icon">
-                                        <i className="fas fa-arrow-right"></i>
-                                    </Link>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">
@@ -110,7 +98,7 @@ export default function Work() {
                                     Data of over 900 birds compiled and organized by me. Data sourced from various wikipedia apis.
                                     </p>
                                     <p>
-                                    Tools: fastapi, react, docker and postgresql
+                                    Tools: FastAPI, React, Docker and postgreSQL
                                     </p>
                                     <div className="btn-bar">
                                         <a href="https://gitlab.com/mad-foley/birdinglogs" className="px-btn px-btn-theme" data-scroll-nav="4">View Project </a>
