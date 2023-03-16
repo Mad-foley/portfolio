@@ -1,9 +1,6 @@
 
-import { Link } from "react-scroll";
 
-/*--------------------
-* Footer Section
-----------------------*/
+
 function Footer() {
     return (
         <footer className="footer">

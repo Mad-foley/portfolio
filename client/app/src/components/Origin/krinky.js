@@ -6,7 +6,6 @@ import About from "../About/about"
 import ServiceList from "../Service/service"
 import SkillList from "../Skills/skill"
 import Work from "../Work/work"
-import Contact from "../Contact/contact"
 import Footer from "../Footer/footer"
 
 
