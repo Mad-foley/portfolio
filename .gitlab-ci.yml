@@ -4,11 +4,7 @@ stages:
   - build
   - deploy
 
-cache:
-  paths:
-    - client/app/node_modules/
-
-before_scripts:
+before_script:
   - cd client/app
   - npm install
 
