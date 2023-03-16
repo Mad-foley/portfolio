@@ -8,7 +8,7 @@ cache:
   paths:
     - client/app/node_modules/
 
-before_script:
+before_scripts:
   - cd client/app
   - npm install
 
@@ -32,7 +32,7 @@ pages:
   needs:
     - build-client
   script:
-    - mv client/app/build/ public
+    - mv build/ public
   artifacts:
     paths:
       - public
