@@ -26,4 +26,4 @@ deploy:
     - build
   artifacts:
     paths:
-      -public
+      - public
