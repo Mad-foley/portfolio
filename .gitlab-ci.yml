@@ -4,7 +4,7 @@ image: node:latest
 before_script:
   - cd client/app
   - npm install
-  
+
 pages:
   script:
     - npm run build
@@ -12,4 +12,4 @@ pages:
   artifacts:
     paths:
       # The folder that contains the files to be exposed at the Page URL
-      - client/app/public
+      - /public
