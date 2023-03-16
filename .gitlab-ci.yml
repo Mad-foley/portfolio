@@ -18,12 +18,17 @@ build-client:
     - npm run build
   artifacts:
     paths:
-      - build/
-
-deploy:
+      - client/app/build
+pages:
   stage: deploy
-  dependencies:
-    - build
-  artifacts:
-    paths:
-      - public
+  rules:
+      - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    dependencies:
+      - build-client
+    needs:
+      - build-client
+    script:
+      - mv client/app/build/ public
+    artifacts:
+      paths:
+        - public
