@@ -16,6 +16,7 @@ build-client:
   stage: build
   variables:
     PUBLIC_URL: https://gitlab.com/mad-foley/portfolio
+  script:
     - npm run build
     - cp build/index.html build/404.html
   artifacts:
