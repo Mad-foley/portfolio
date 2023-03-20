@@ -51,7 +51,7 @@ export default function ServiceList() {
             title: 'Self-Study',
             icon: 'fas fa-book',
             description: 'I also have studied a lot on my own!',
-            stack: 'Data Structures & Algorithms, Natural Language Processing and Linear Algebra'
+            stack: 'Data Structures & Algorithms, Natural Language Processing, Linear Algebra and Statistics'
         }
 
     ]
