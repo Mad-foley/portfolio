@@ -9,7 +9,7 @@ export default function About() {
                     <div className="row gy-5 align-items-center">
                         <div className="col-lg-6 text-center">
                             <img className="circle-img" src="img/rose.jpeg" title="Banner" alt="Banner"/>
-                            <div className="personal-art">All Art in this Portfolio painted by Me</div>
+                            <div className="personal-art">All art in this portfolio painted by me</div>
                         </div>
                         <div className="col-lg-6 ps-lg-5">
                             <div className="about-text">

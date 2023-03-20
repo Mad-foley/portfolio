@@ -35,8 +35,8 @@ export default function ServiceList() {
             id: 'bg-2',
             title: 'Hack Reactor Graduate',
             icon: 'fas fa-user-graduate',
-            description: '900+ hours learning the ins-and-outs of website building with a focus on python and javascript in an agile work environment.',
-            stack: 'Python, JavaScript, postgreSQL, FastAPI and more: ',
+            description: '900+ hours learning the ins-and-outs of website development with a focus on python and javascript in an agile work environment.',
+            stack: 'Python, JavaScript, PostgreSQL, FastAPI and more: ',
             link: <a href="https://docs.google.com/document/d/1s6RnJAUH1Ol5R5GHUxXl3bZLygVmYidXG-Rsd9sU3JE/edit" className="px-btn px-btn-dark" to="portfolio">Resume</a>
         },
         {
@@ -44,14 +44,14 @@ export default function ServiceList() {
             title: 'Linguistics B.A.',
             icon: 'fas fa-user-graduate',
             description: 'I studied linguistics in college with a focus on syntax and semantics. I completed an intro to computer science course and learned basic data analysis utilizing tech listed below.',
-            stack: 'R, Praat, Python, CS theory, Fromal Syntax'
+            stack: 'R, Praat, Python, CS Theory, Formal Syntax'
         },
         {
             id: 'bg-4',
             title: 'Self-Study',
             icon: 'fas fa-book',
             description: 'I also have studied a lot on my own!',
-            stack: 'Data structures & Algorithms, Natural Language Processing and Linear Algebra'
+            stack: 'Data Structures & Algorithms, Natural Language Processing and Linear Algebra'
         }
 
     ]

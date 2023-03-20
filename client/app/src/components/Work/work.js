@@ -26,7 +26,7 @@ export default function Work() {
                                         Built in an agile team environment.
                                     </p>
                                     <p>
-                                        Tool: FastAPI, React, Redux, postgreSQL, Docker, WebSocket, Tailwind-css (light and dark mode)
+                                        Tool: FastAPI, React, Redux, PostgreSQL, Docker, WebSocket, Tailwind-css (light and dark mode)
                                     </p>
 
                                     <div className="btn-bar">
@@ -97,7 +97,7 @@ export default function Work() {
                                     Data for over 900 birds compiled and organized by me. Data sourced from various wikipedia apis.
                                     </p>
                                     <p>
-                                    Tools: FastAPI, React, Docker and postgreSQL
+                                    Tools: FastAPI, React, Docker and PostgreSQL
                                     </p>
                                     <div className="btn-bar">
                                         <a href="https://gitlab.com/mad-foley/birdinglogs" className="px-btn px-btn-theme" >View Project </a>
