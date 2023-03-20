@@ -45,7 +45,7 @@ export default function SkillList() {
                         </div>
                         <div className="col-lg-6 text-center">
                             <img src="img/home-banner.jpeg" title="" alt=""/>
-                            <div className="">A doodle of my cat, Pipi</div>
+                            <div className="personal-art">A doodle of my cat, Pipi</div>
                         </div>
                     </div>
                 </div>

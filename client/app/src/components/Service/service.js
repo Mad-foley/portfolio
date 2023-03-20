@@ -10,8 +10,9 @@ function Service(props) {
                     <div className="feature-content">
                         <h5>{props.title}</h5>
                         <p>{props.description}</p>
+
                         <br></br>
-                        <p className="font-bold">Skills: {props.stack}</p>
+                        <p className="font-bold">Skills: {props.stack}{props.link}</p>
                     </div>
                 </div>
             </div>
@@ -35,7 +36,8 @@ export default function ServiceList() {
             title: 'Hack Reactor Graduate',
             icon: 'fas fa-user-graduate',
             description: '900+ hours learning the ins-and-outs of website building with a focus on python and javascript in an agile work environment.',
-            stack: 'Python, JavaScript, postgreSQL, FastAPI and more (on my resume in about me!)'
+            stack: 'Python, JavaScript, postgreSQL, FastAPI and more: ',
+            link: <a href="https://docs.google.com/document/d/1s6RnJAUH1Ol5R5GHUxXl3bZLygVmYidXG-Rsd9sU3JE/edit" className="px-btn px-btn-dark" to="portfolio">Resume</a>
         },
         {
             id: 'bg-3',
@@ -49,7 +51,7 @@ export default function ServiceList() {
             title: 'Self-Study',
             icon: 'fas fa-book',
             description: 'I also have studied a lot on my own!',
-            stack: 'Data structure & Algorithms, Natural Language Processing and Linear Algebra'
+            stack: 'Data structures & Algorithms, Natural Language Processing and Linear Algebra'
         }
 
     ]
@@ -65,7 +67,7 @@ export default function ServiceList() {
                     <div className="row">
                         {
                             service_list.map((val, i)=>{
-                                return <Service key={i} id={val.id} title={val.title} icon={val.icon} description={val.description} stack={val.stack} />
+                                return <Service key={i} id={val.id} title={val.title} icon={val.icon} description={val.description} stack={val.stack} link={val.link}/>
                             })
                         }
                     </div>

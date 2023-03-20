@@ -9,7 +9,7 @@ export default function About() {
                     <div className="row gy-5 align-items-center">
                         <div className="col-lg-6 text-center">
                             <img className="circle-img" src="img/rose.jpeg" title="Banner" alt="Banner"/>
-                            <div> I enjoy drawing too!</div>
+                            <div className="personal-art">All Art in this Portfolio painted by Me</div>
                         </div>
                         <div className="col-lg-6 ps-lg-5">
                             <div className="about-text">
@@ -25,7 +25,7 @@ export default function About() {
                                     My interest in programming originally came from linguistics but developed due to my passion for problem solving and life-long learning.
                                 </p>
                                 <p>
-                                    Outside of programming you can probably find me outdoors hiking and doing some casual birding (for which I am also building an app for!).
+                                    Outside of programming you can probably find me outdoors hiking and doing some casual birding (for which I am also building an app!).
                                 </p>
                                 <div className="btn-bar pt-4">
                                     <a href="https://gitlab.com/mad-foley" className="px-btn px-btn-theme me-4">GitLab <i className="fab fa-gitlab"></i></a>

@@ -29,7 +29,7 @@ export default function Header() {
                 <nav className="navbar header-nav navbar-expand-lg one-page-nav">
                     <div className="container">
                         <Link className="navbar-brand"  smooth={true} to="home">
-                            <img className="my-nav-icon" src="happy.svg" title="Logo" alt="Logo"/>
+                            <img className="my-nav-icon circle-img" src="img/sun.jpeg" title="Logo" alt="Logo"/>
                         </Link>
                                 <div className={"navbar-collapse " + (open ? '' : 'collapse')} id="navbar-collapse-toggle">
                                     <ul className="navbar-nav mx-auto">

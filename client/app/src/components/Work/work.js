@@ -1,6 +1,6 @@
 
-
 export default function Work() {
+
     return (
         <>
             <section data-scroll-data="4" id="work" className="section work-section bg-gray">
@@ -23,13 +23,14 @@ export default function Work() {
                                     <h4>My Cave</h4>
                                     <p>
                                         Wine social media page that allows individuals to login, view, add and like different wines.
-                                        Made in an agile team environment.
+                                        Built in an agile team environment.
                                     </p>
                                     <p>
                                         Tool: FastAPI, React, Redux, postgreSQL, Docker, WebSocket, Tailwind-css (light and dark mode)
                                     </p>
+
                                     <div className="btn-bar">
-                                        <a href="https://gitlab.com/team-07-the-fermenters/module3-project-gamma" className="px-btn px-btn-theme" data-scroll-nav="4">View Project</a>
+                                        <a href="https://gitlab.com/team-07-the-fermenters/module3-project-gamma" className="px-btn px-btn-theme">View Project</a>
                                     </div>
                                 </div>
                             </div>
@@ -45,14 +46,14 @@ export default function Work() {
                                     <h6><span>Web Development</span></h6>
                                     <h4>CarCar</h4>
                                     <p>
-                                    Application created to help car businesses to manage car inventory, employees and appointments.
-                                    Worked as a pair in an agile environment to create separate parts of the application.
+                                    Application created to help car businesses manage inventory, employees, sales and appointments.
+                                    Pair-programmed with a partner to create separate parts of the application.
                                     </p>
                                     <p>
                                         Tools: Django, React, Docker, Microservices, Bootstrap
                                     </p>
                                     <div className="btn-bar">
-                                        <a href="https://gitlab.com/mad-foley/car-car" className="px-btn px-btn-theme" data-scroll-nav="4" >View Project </a>
+                                        <a href="https://gitlab.com/mad-foley/car-car" className="px-btn px-btn-theme" >View Project </a>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +76,7 @@ export default function Work() {
                                         Tools: Django, HTML, CSS
                                     </p>
                                     <div className="btn-bar">
-                                        <a href="https://gitlab.com/mad-foley/flashcards" className="px-btn px-btn-theme" data-scroll-nav="4" >View Project </a>
+                                        <a href="https://gitlab.com/mad-foley/flashcards" className="px-btn px-btn-theme" >View Project </a>
                                     </div>
                                 </div>
                             </div>
@@ -93,13 +94,13 @@ export default function Work() {
                                     <p>
                                     Designed for birders to look at, log and learn a little bit about the birds they see.
                                     Basic functionality is to search birds, add comments/sightings and add birds to a wishlist.
-                                    Data of over 900 birds compiled and organized by me. Data sourced from various wikipedia apis.
+                                    Data for over 900 birds compiled and organized by me. Data sourced from various wikipedia apis.
                                     </p>
                                     <p>
                                     Tools: FastAPI, React, Docker and postgreSQL
                                     </p>
                                     <div className="btn-bar">
-                                        <a href="https://gitlab.com/mad-foley/birdinglogs" className="px-btn px-btn-theme" data-scroll-nav="4">View Project </a>
+                                        <a href="https://gitlab.com/mad-foley/birdinglogs" className="px-btn px-btn-theme" >View Project </a>
                                     </div>
                                 </div>
                             </div>

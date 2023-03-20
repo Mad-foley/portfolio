@@ -666,3 +666,8 @@ main {
 .toggle-button:hover{
   opacity: 70%
 }
+
+.personal-art {
+  font-style: italic;
+  font-weight: bold;
+}
