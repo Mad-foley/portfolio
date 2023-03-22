@@ -24,7 +24,7 @@ export default function Banner() {
                         </div>
                         <div className="col-lg-6 pt-4 pt-lg-0">
                             <div className="home-image text-center">
-                                <img src={"img/meinjapan.jpg"} title="Banner" alt="Banner"/>
+                                <img src={"img/me.jpeg"} className="profile-pic" title="Banner" alt="Banner"/>
                             </div>
                         </div>
                     </div>

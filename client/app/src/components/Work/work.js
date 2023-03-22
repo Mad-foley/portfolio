@@ -20,7 +20,7 @@ export default function Work() {
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-text">
                                     <h6><span>Web Development</span></h6>
-                                    <h4>My Cave</h4>
+                                    <h4>The Cave</h4>
                                     <p>
                                         Wine social media page that allows individuals to login, view, add and like different wines.
                                         Built in an agile team environment.
