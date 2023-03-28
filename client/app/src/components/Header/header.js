@@ -31,7 +31,7 @@ export default function Header() {
                         <Link className="navbar-brand"  smooth={true} to="home">
                             <img className="my-nav-icon circle-img" src="img/sun.jpeg" title="Logo" alt="Logo"/>
                         </Link>
-                                <div className={"navbar-collapse " + (open ? '' : 'collapse')} id="navbar-collapse-toggle">
+                                <div className={"navbar-collapse " + (open ? 'max-lg:collapse initial' : 'lg:collapse')} id="navbar-collapse-toggle">
                                     <ul className="navbar-nav mx-auto">
                                         {
                                             header_menus.map((val, i) => {
