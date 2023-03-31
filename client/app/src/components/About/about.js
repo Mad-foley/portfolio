@@ -29,7 +29,7 @@ export default function About() {
                                 </p>
                                 <div className="btn-bar pt-4">
                                     <a href="https://gitlab.com/mad-foley" className="px-btn px-btn-theme me-4">GitLab <i className="fab fa-gitlab"></i></a>
-                                    <a href="https://docs.google.com/document/d/1s6RnJAUH1Ol5R5GHUxXl3bZLygVmYidXG-Rsd9sU3JE/edit" className="px-btn px-btn-dark" to="portfolio">Resume</a>
+                                    <a href="https://drive.google.com/file/d/1-q3DZ2wAQ0y6SD15U0U2FSISz8l-eYfl/view?usp=sharing" className="px-btn px-btn-dark" to="portfolio">Resume</a>
                                 </div>
                             </div>
                         </div>

@@ -37,7 +37,7 @@ export default function ServiceList() {
             icon: 'fas fa-user-graduate',
             description: '900+ hours learning the ins-and-outs of website development with a focus on python and javascript in an agile work environment.',
             stack: 'Python, JavaScript, PostgreSQL, FastAPI and more: ',
-            link: <a href="https://docs.google.com/document/d/1s6RnJAUH1Ol5R5GHUxXl3bZLygVmYidXG-Rsd9sU3JE/edit" className="px-btn px-btn-dark" to="portfolio">Resume</a>
+            link: <a href="https://drive.google.com/file/d/1-q3DZ2wAQ0y6SD15U0U2FSISz8l-eYfl/view?usp=sharing" className="px-btn px-btn-dark" to="portfolio">Resume</a>
         },
         {
             id: 'bg-3',
@@ -51,7 +51,7 @@ export default function ServiceList() {
             title: 'Self-Study',
             icon: 'fas fa-book',
             description: 'I also have studied a lot on my own!',
-            stack: 'Node.js and Data Structures & Algorithms'
+            stack: 'Node.js, Express.js and Data Structures & Algorithms'
         }
 
     ]
