@@ -26,7 +26,7 @@ export default function Work() {
                                         Built in an agile team environment.
                                     </p>
                                     <p>
-                                        Tool: FastAPI, React, Redux, PostgreSQL, Docker, WebSocket, Tailwind-css (light and dark mode)
+                                        Tools: FastAPI, React, Redux, PostgreSQL, Docker, WebSocket, Tailwind-css (light and dark mode)
                                     </p>
 
                                     <div className="btn-bar">
