@@ -30,7 +30,7 @@ export default function Work() {
                                     </p>
 
                                     <div className="btn-bar">
-                                        <a href="https://gitlab.com/team-07-the-fermenters/module3-project-gamma" className="px-btn px-btn-theme">View Code</a>
+                                        <a href="https://github.com/Mad-foley/the-cave" className="px-btn px-btn-theme">View Code</a>
                                         <a href="https://team-07-the-fermenters.gitlab.io/module3-project-gamma" className="px-btn px-btn-dark ml-3">View Site</a>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@ export default function Work() {
                                         Tools: Django, React, Docker, Microservices, Bootstrap
                                     </p>
                                     <div className="btn-bar">
-                                        <a href="https://gitlab.com/mad-foley/car-car" className="px-btn px-btn-theme" >View Code</a>
+                                        <a href="https://github.com/Mad-foley/CarCar" className="px-btn px-btn-theme" >View Code</a>
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ export default function Work() {
                                         Tools: Django, HTML, CSS
                                     </p>
                                     <div className="btn-bar">
-                                        <a href="https://gitlab.com/mad-foley/flashcards" className="px-btn px-btn-theme" >View Code</a>
+                                        <a href="https://github.com/Mad-foley/flashcards" className="px-btn px-btn-theme" >View Code</a>
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@ export default function Work() {
                                     Tools: FastAPI, React, Docker and PostgreSQL
                                     </p>
                                      <div className="btn-bar">
-                                        <a href="https://gitlab.com/mad-foley/birdinglogs" className="px-btn px-btn-theme" >View Project </a>
+                                        <a href="https://github.com/Mad-foley/birdinglogs" className="px-btn px-btn-theme" >View Project </a>
                                     </div>
                                 </div>
                             </div>
