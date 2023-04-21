@@ -44,7 +44,7 @@ export default function Header() {
                              <button className="p-3"onClick={isOpen}>
                                     <i className="toggle-button fas fa-bars fa-2x"></i>
                             </button>
-                            <a className="py-3"href='https://https://github.com/Mad-foley'><i className="fab fa-github fa-2x"></i></a>
+                            <a className="py-3"href='https://github.com/Mad-foley'><i className="fab fa-github fa-2x"></i></a>
                             <a className="py-3 px-3" href='https://www.linkedin.com/in/mad-foley/'><i className="fab fa-linkedin fa-2x fill-blue"></i></a>
                         </span>
                     </div>
