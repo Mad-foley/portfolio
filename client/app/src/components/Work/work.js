@@ -10,6 +10,31 @@ export default function Work() {
                             <h3><span>Latest Projects</span></h3>
                         </div>
                     </div>
+                      <div className="row gx-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
+                            <div className="col-md-6 col-lg-5">
+                                <div className="portfolio-img">
+                                    <img src="img/birdinglogs.png" title="p4" alt="p4"/>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-5">
+                                <div className="portfolio-text">
+                                    <h6><span>Web Development</span></h6>
+                                    <h4>Birding Logs</h4>
+                                    <div></div>
+                                     <p>
+                                    Designed for birders to look at, log and learn a little bit about the birds they see.
+                                    Basic functionality is to search birds, add comments/sightings and add birds to a wishlist.
+                                    Data for over 900 birds compiled and organized by me. Data sourced from various wikipedia apis.
+                                    </p>
+                                    <p>
+                                    Tools: FastAPI, React, Docker and PostgreSQL
+                                    </p>
+                                     <div className="btn-bar">
+                                        <a href="https://github.com/Mad-foley/birdinglogs" className="px-btn px-btn-theme" >View Project </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <div className="lightbox-gallery portfolio-box">`
                         <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
                             <div className="col-md-6 col-lg-5">
@@ -82,31 +107,6 @@ export default function Work() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="row gx-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
-                            <div className="col-md-6 col-lg-5">
-                                <div className="portfolio-img">
-                                    <img src="img/placeholder.png" title="p4" alt="p4"/>
-                                </div>
-                            </div>
-                            <div className="col-md-6 col-lg-5">
-                                <div className="portfolio-text">
-                                    <h6><span>Coming Soon!</span></h6>
-                                    <h4>Birding Logs</h4>
-                                    <div></div>
-                                     <p>
-                                    Designed for birders to look at, log and learn a little bit about the birds they see.
-                                    Basic functionality is to search birds, add comments/sightings and add birds to a wishlist.
-                                    Data for over 900 birds compiled and organized by me. Data sourced from various wikipedia apis.
-                                    </p>
-                                    <p>
-                                    Tools: FastAPI, React, Docker and PostgreSQL
-                                    </p>
-                                     <div className="btn-bar">
-                                        <a href="https://github.com/Mad-foley/birdinglogs" className="px-btn px-btn-theme" >View Project </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
                      </div>
                 </div>
             </section>
