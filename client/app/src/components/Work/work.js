@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Gallery } from "../Gallery/Gallery";
-import { useTransition } from "react";
 
 export default function Work() {
     const [button, setButton] = useState(false)
