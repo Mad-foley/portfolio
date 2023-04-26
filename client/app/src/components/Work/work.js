@@ -24,7 +24,7 @@ export default function Work() {
                             <h3><span>Latest Projects</span></h3>
                         </div>
                     </div>
-                      <div className="row gx-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
+                      <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4  portfolio-box justify-content-around align-items-center flex-row-reverse">
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img">
                                     <img src="img/birdinglogs/birdinglogs.png" title="p4" alt="p4"/>
@@ -47,7 +47,7 @@ export default function Work() {
                                     Tools: FastAPI, React, Docker, PostgreSQL, CSS, HTML, Tailwind-CSS
                                     </p>
                                      <div className="btn-bar">
-                                        <a href="https://github.com/Mad-foley/birdinglogs" className="px-btn px-btn-theme" >View Project </a>
+                                        <a href="https://github.com/Mad-foley/birdinglogs" className="px-btn px-btn-theme" >View Code <i className="fab fa-github"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@ export default function Work() {
                                     </p>
 
                                     <div className="btn-bar">
-                                        <a href="https://github.com/Mad-foley/the-cave" className="px-btn px-btn-theme">View Code</a>
+                                        <a href="https://github.com/Mad-foley/the-cave" className="px-btn px-btn-theme">View Code <i className="fab fa-github"></i></a>
                                         <a href="https://team-07-the-fermenters.gitlab.io/module3-project-gamma" className="px-btn px-btn-dark ml-3">View Site</a>
                                     </div>
                                 </div>
@@ -99,7 +99,7 @@ export default function Work() {
                                         Tools: Django, React, Docker, Microservices, Bootstrap
                                     </p>
                                     <div className="btn-bar">
-                                        <a href="https://github.com/Mad-foley/CarCar" className="px-btn px-btn-theme" >View Code</a>
+                                        <a href="https://github.com/Mad-foley/CarCar" className="px-btn px-btn-theme" >View Code <i className="fab fa-github"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ export default function Work() {
                                         Tools: Django, HTML, CSS
                                     </p>
                                     <div className="btn-bar">
-                                        <a href="https://github.com/Mad-foley/flashcards" className="px-btn px-btn-theme" >View Code</a>
+                                        <a href="https://github.com/Mad-foley/flashcards" className="px-btn px-btn-theme" >View Code <i className="fab fa-github"></i></a>
                                     </div>
                                 </div>
                             </div>
