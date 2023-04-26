@@ -37,7 +37,7 @@ export default function ServiceList() {
             icon: 'fas fa-user-graduate',
             description: '900+ hours learning the ins-and-outs of website development with a focus on python and javascript in an agile work environment.',
             stack: 'Python, JavaScript, PostgreSQL, FastAPI and more: ',
-            link: <a target="_blank" href="https://drive.google.com/file/d/1-q3DZ2wAQ0y6SD15U0U2FSISz8l-eYfl/view?usp=sharing" className="px-btn px-btn-dark" to="portfolio">Resume</a>
+            link: <a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1-q3DZ2wAQ0y6SD15U0U2FSISz8l-eYfl/view?usp=sharing" className="px-btn px-btn-dark" to="portfolio">Resume</a>
         },
         {
             id: 'bg-3',
