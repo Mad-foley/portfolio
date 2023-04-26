@@ -1,8 +1,23 @@
+import { useState } from "react";
+import { Gallery } from "../Gallery/Gallery";
+import { useTransition } from "react";
 
 export default function Work() {
+    const [button, setButton] = useState(false)
+    const [project, setProject] = useState('')
+
+
+    const callback = () => {
+        return setButton(!button)
+    }
 
     return (
         <>
+            {
+                button ?
+                    <Gallery callback={callback} project={project}/> :
+                    null
+            }
             <section data-scroll-data="4" id="work" className="section work-section bg-gray">
                 <div className="container">
                     <div className="row section-heading justify-content-center">
@@ -13,7 +28,10 @@ export default function Work() {
                       <div className="row gx-3 gy-4 portfolio-box justify-content-around align-items-center flex-row-reverse">
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img">
-                                    <img src="img/birdinglogs.png" title="p4" alt="p4"/>
+                                    <img src="img/birdinglogs/birdinglogs.png" title="p4" alt="p4"/>
+                                    <button onClick={e => {setProject('birdinglogs'); setButton(!button)}} className="gallery-link gallery-link-icon">
+                                        <i className="far fa-folder-open"></i>
+                                    </button>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">
@@ -27,7 +45,7 @@ export default function Work() {
                                     Data for over 900 birds compiled and organized by me. Data sourced from various wikipedia apis.
                                     </p>
                                     <p>
-                                    Tools: FastAPI, React, Docker and PostgreSQL
+                                    Tools: FastAPI, React, Docker, PostgreSQL, CSS, HTML, Tailwind-CSS
                                     </p>
                                      <div className="btn-bar">
                                         <a href="https://github.com/Mad-foley/birdinglogs" className="px-btn px-btn-theme" >View Project </a>
@@ -39,7 +57,10 @@ export default function Work() {
                         <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img">
-                                    <img src="img/mycave.png" title="p1" alt="p1"/>
+                                    <img src="img/thecave/mycave.png" title="p1" alt="p1"/>
+                                    <button onClick={e => {setProject('thecave'); setButton(!button)}} className="gallery-link gallery-link-icon">
+                                        <i className="far fa-folder-open"></i>
+                                    </button>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">

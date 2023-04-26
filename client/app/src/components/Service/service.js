@@ -51,7 +51,7 @@ export default function ServiceList() {
             title: 'Self-Study',
             icon: 'fas fa-book',
             description: 'I also have studied a lot on my own!',
-            stack: 'Node.js, Express.js and Data Structures & Algorithms'
+            stack: 'Node.js, Express.js, Linear Algebra and Data Structures & Algorithms'
         }
 
     ]

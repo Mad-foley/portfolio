@@ -671,3 +671,44 @@ main {
   font-style: italic;
   font-weight: bold;
 }
+
+.modal-gallery {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: .5s;
+}
+
+.gallery-img{
+  margin-top: 10px;
+  max-height: 500px;
+}
+
+.gallery-arrows{
+  padding: 4px 10px 4px 10px;
+  background: #fff;
+  color: #373737;
+  border: 2px solid #373737;
+}
+.gallery-arrows:hover{
+  background:rgba(225, 222, 206, 0.75);
+  transition: .35s
+}
+
+.gallery-exit{
+  padding: 4px 10px 4px 10px;
+  background: #fff;
+  color: #373737;
+  border: 2px solid #373737;
+}
+.gallery-exit:hover {
+  background:rgba(225, 222, 206, 0.75);
+  transition: .35s
+}
