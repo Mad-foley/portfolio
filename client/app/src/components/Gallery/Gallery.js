@@ -28,7 +28,7 @@ export function Gallery({callback, project}){
                 </div>
                 <div className="flex items-center justify-center">
                     <button onClick={leftClick} className="-mx-10 z-10 gallery-arrows"><i className="fas fa-arrow-left"></i></button>
-                    <img className="gallery-img" src={myProjects[project][image]}/>
+                    <img className="gallery-img" src={myProjects[project][image]} alt={"image " + image}/>
                     <button onClick={rightClick} className="-mx-10 z-10 gallery-arrows"><i className="fas fa-arrow-right"></i></button>
                 </div>
 

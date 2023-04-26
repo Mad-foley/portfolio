@@ -52,7 +52,7 @@ export default function Work() {
                                 </div>
                             </div>
                         </div>
-                    <div className="lightbox-gallery portfolio-box">`
+                    <div className="lightbox-gallery portfolio-box">
                         <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
                             <div className="col-md-6 col-lg-5">
                                 <div className="portfolio-img">
