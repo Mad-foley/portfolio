@@ -19,8 +19,8 @@ function Footer() {
                 <div className="row align-items-center">
                     <div className="col-md-6 py-2">
                         <div className="nav justify-content-center justify-content-md-start">
-                            <a href='https://github.com/Mad-foley'><i className="fab fa-github"></i></a>
-                            <a href="https://www.linkedin.com/in/mad-foley/"><i className="fab fa-linkedin-in"></i></a>
+                            <a target="_blank" href='https://github.com/Mad-foley'><i className="fab fa-github"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/mad-foley/"><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div className="col-md-6 py-2 text-center text-md-end">

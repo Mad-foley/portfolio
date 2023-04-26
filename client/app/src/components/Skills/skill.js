@@ -6,7 +6,7 @@ function Skill(props) {
     return (
         <>
             <div className="col-6 col-md-4 col-lg-6">
-                    <a href={props.tool.href}>
+                    <a target="_blank" href={props.tool.href}>
                 <div className={props.tool.color + " feature-box-02 "}>
                 <div className="icon">
                         <i className={props.tool.icon}></i>

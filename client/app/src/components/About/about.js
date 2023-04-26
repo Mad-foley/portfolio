@@ -28,8 +28,8 @@ export default function About() {
                                     Outside of programming you can probably find me outdoors hiking and doing some casual birding (for which I am also building an app!).
                                 </p>
                                 <div className="btn-bar pt-4">
-                                    <a href="https://github.com/Mad-foley" className="px-btn px-btn-theme me-4">GitHub <i className="fab fa-github"></i></a>
-                                    <a href="https://drive.google.com/file/d/1-q3DZ2wAQ0y6SD15U0U2FSISz8l-eYfl/view?usp=sharing" className="px-btn px-btn-dark" to="portfolio">Resume</a>
+                                    <a target="_blank" href="https://github.com/Mad-foley" className="px-btn px-btn-theme me-4">GitHub <i className="fab fa-github"></i></a>
+                                    <a target="_blank" href="https://drive.google.com/file/d/1-q3DZ2wAQ0y6SD15U0U2FSISz8l-eYfl/view?usp=sharing" className="px-btn px-btn-dark" to="portfolio">Resume</a>
                                 </div>
                             </div>
                         </div>
