@@ -4,7 +4,7 @@ export function Gallery({callback, project}){
     const [image, setImage] = useState(0)
     const myProjects = {
         birdinglogs:['img/birdinglogs/birdinglogs.png','img/birdinglogs/all-bird-filter.png', 'img/birdinglogs/catbird-detail.png', 'img/birdinglogs/delete-sighting.png', 'img/birdinglogs/Login.png' ],
-        thecave: ['img/thecave/mycave.png', 'img/thecave/login-modal.png', 'img/thecave/create-account.png', 'img/thecave/profile.png','img/thecave/create-wine.png', 'img/thecave/wine-detail.png', 'img/thecave/wine-list.png', 'img/thecave/logout-modal.png']
+        thecave: ['img/thecave/login-modal.png', 'img/thecave/create-account.png', 'img/thecave/profile.png','img/thecave/create-wine.png', 'img/thecave/wine-detail.png', 'img/thecave/wine-list.png', 'img/thecave/logout-modal.png']
     }
 
     const rightClick = () => {

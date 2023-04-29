@@ -26,11 +26,9 @@ export default function Work() {
                     </div>
                       <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4  portfolio-box justify-content-around align-items-center flex-row-reverse">
                             <div className="col-md-6 col-lg-5">
-                                <div className="portfolio-img">
+                                <div className="portfolio-img" onClick={e => {setProject('birdinglogs'); setButton(!button)}}>
+                                    <div className="view-gallery">View Gallery  <i className="far fa-folder-open"></i></div>
                                     <img src="img/birdinglogs/birdinglogs.png" title="p4" alt="p4"/>
-                                    <button onClick={e => {setProject('birdinglogs'); setButton(!button)}} className="gallery-link gallery-link-icon">
-                                        <i className="far fa-folder-open"></i>
-                                    </button>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">
@@ -55,11 +53,10 @@ export default function Work() {
                     <div className="lightbox-gallery portfolio-box">
                         <div className="row gx-3 pb-3 mb-5 pb-lg-3 mb-lg-3 gy-4 portfolio-box justify-content-around align-items-center">
                             <div className="col-md-6 col-lg-5">
-                                <div className="portfolio-img">
+
+                                <div className="portfolio-img" onClick={e => {setProject('thecave'); setButton(!button)}}>
+                                    <div className="view-gallery">View Gallery  <i className="far fa-folder-open"></i></div>
                                     <img src="img/thecave/mycave.png" title="p1" alt="p1"/>
-                                    <button onClick={e => {setProject('thecave'); setButton(!button)}} className="gallery-link gallery-link-icon">
-                                        <i className="far fa-folder-open"></i>
-                                    </button>
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-5">
