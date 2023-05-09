@@ -26,7 +26,7 @@ export default function ServiceList() {
     const service_list = [
         {
             id:'bg-1',
-            title:'Contractor (Software Engineer)',
+            title:'Software Engineer (Freelance)',
             icon:'fas fa-laptop',
             description:'I maintain existing tax software for local municipalities by updating functionality using VB, .NET, MS Access and SQLite. I also collaborate with other contractors by communicating through MSTeams, Outlook and GitHub.',
             stack: 'VB, .NET, MSAccess, SQLite, Git'
